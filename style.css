@@ -1,0 +1,28 @@
+* {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+body {
+	margin: auto;
+	background-color: #102030;
+	width: 80%;
+}
+
+a {
+	color: #5badd7;
+}
+
+#warning {
+	background-color: #fc876c;
+	margin: auto;
+	width: 70%;
+	border: 5px solid #ff0000;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+#warning-text{
+	text-align: center;
+	color: #e52b2b;
+}
+
