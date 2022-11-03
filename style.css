@@ -1,6 +1,7 @@
 * {
 	color: #FFFFFF;
 	text-align: center;
+	font-family: Roboto;
 }
 
 html {
@@ -40,7 +41,12 @@ header {
 }
 
 #cover-label {
-
+	position: fixed;
+	top: 550px;
+	left: 525px;
+	color: #136fc7;
+	font-size: 40px;
+	text-decoration: underline;
 }
 
 /* logo */
