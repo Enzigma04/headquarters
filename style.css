@@ -35,6 +35,10 @@ header {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+#cover-photo {
+	width: 100%;
+}
+
 /* logo */
 #logo {
 	float: left;
