@@ -115,6 +115,14 @@ header {
 	text-decoration: underline;
 }
 
+#cover-copyright {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	color: #8a8a8a;
+	font-size: 10px;
+}
+
 .container {
 	margin: 0px auto;
 	margin-top: 750px;
