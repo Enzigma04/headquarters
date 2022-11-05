@@ -36,19 +36,6 @@ header {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-#cover-photo {
-	width: 100%;
-}
-
-#cover-label {
-	position: fixed;
-	top: 550px;
-	left: 525px;
-	color: #136fc7;
-	font-size: 40px;
-	text-decoration: underline;
-}
-
 /* logo */
 #logo {
 	float: left;
@@ -109,6 +96,25 @@ header {
 }
 
 /* body */
+
+#cover {
+	position: relative;
+	text-align: center;
+}
+
+#cover-photo {
+	width: 100%;
+}
+
+#cover-label {
+	position: absolute;
+	bottom: 18%;
+	right: 25.5%;
+	color: #136fc7;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
 .container {
 	margin: 0px auto;
 	margin-top: 750px;
