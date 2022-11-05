@@ -1,10 +1,10 @@
 * {
 	color: #FFFFFF;
 	text-align: center;
-	font-family: Roboto;
 }
 
 html {
+	font-family: Roboto;
 	height: 100%;
 }
 
@@ -38,23 +38,26 @@ header {
 
 /* logo */
 #logo {
+	overflow: visible;
 	float: left;
 	padding: 0;
 	margin: 0;
 	margin-left: 10px;
-	width: 124px;
+	width: 300px;
+	height: 90px;
 }
 
 #logo img {
-	width: 60%;
-	float: left;
+	height: 80%;
+	width: auto;
 	padding: 10px 0px;
+	float: left;
 }
 
 /* nav menu */
 #menu {
 	float: right;
-	width: 70%;
+	width: 60%;
 	height: 100%;
 	margin: 0;
 }
@@ -91,7 +94,6 @@ header {
 #menu li:hover a, #menu li span {
 	background: #FFF;
 	color: #0074D9;
-	border-left: 1px solid #0074D9;
 	text-decoration: none;
 }
 
