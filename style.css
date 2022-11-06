@@ -24,14 +24,15 @@ header {
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	height: 100px;
 	z-index: 1000;
+	background-image: linear-gradient(#000, #000, #00000000);
 }
 
 #top-header {
 	text-align: center;
 	margin: auto;
 	height: 90px;
-	background: #0a0b35;
 	z-index: 1001;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -66,7 +67,6 @@ header {
 	text-align: center;
 	float: right;
 	margin: 0;
-	background: #00a0f2;
 }
 
 #menu li {
@@ -84,7 +84,6 @@ header {
 	font-size: 16px;
 	text-transform: uppercase;
 	line-height: 90px;
-	border-left: 4px solid #000;
 }
 
 #menu li a {
@@ -92,9 +91,7 @@ header {
 }
 
 #menu li:hover a, #menu li span {
-	background: #FFF;
-	color: #0074D9;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /* body */
