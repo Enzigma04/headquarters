@@ -3,7 +3,6 @@ Running on [Github Pages](https://pages.github.com) and [Google Domains](https:/
 ## To-Do List:
 - [x] Add `<meta name="" content="">` for description, keywords, author, and viewport. [help](https://www.w3schools.com/tags/tag_meta.asp)
 - [x] incorporate `<main>`
-- [ ] Remove home button
 - [ ] Reformat for mobile compatibility `@media only screen and (min-width: 768px)`
 - [ ] Restyle header
 - [ ] Add footer
