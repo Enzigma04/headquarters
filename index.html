@@ -64,7 +64,10 @@
             </header>
             <section>
                 <div id="cover">
-                    <img id="cover-photo" src="images/sample-band.jpg" />
+                    <picture>
+                        <source media="(max-width:768px)" srcset="images/sample-band-mobile.jpg">
+                        <img id="cover-photo" src="images/sample-band.jpg" />
+                    </picture>
                     <div id="cover-copyright">Public domain photo</div>
                 </div>
             </section>

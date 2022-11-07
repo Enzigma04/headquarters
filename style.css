@@ -30,7 +30,7 @@ header {
 	left: 0px;
 	height: 100px;
 	z-index: 1000;
-	background-image: linear-gradient(#000, #000, #00000000);
+	background-image: linear-gradient(#000, #000000AA, #00000000);
 }
 
 #top-header {
