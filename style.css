@@ -63,7 +63,7 @@ header {
 
 /*#region*/ /* nav menu */
 .menu li {
-	display: inline-block;
+	display: block;
 	float: right;
 }
 
@@ -94,7 +94,7 @@ header {
 
 /*#region*/ /* mobile sidebar */
 .sidebar {
-	z-index: 10000;
+	z-index: 10001;
 	position: fixed;
 	top: 0px;
 	left: 100vw;
@@ -134,6 +134,19 @@ header {
 }
 .sidebar li a:hover {
 	color: #8a8a8a;
+}
+.close-off-canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100%;
+	background: #00000088;
+	display: none;
+	appearance: none;
+	border: 0;
+	z-index: 10000;
+	transition: 0.5s;
 }
 /*#endregion*/
 
