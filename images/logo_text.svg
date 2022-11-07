@@ -29,9 +29,9 @@
      inkscape:window-height="1009"
      id="namedview840"
      showgrid="false"
-     inkscape:zoom="0.40447372"
-     inkscape:cx="1490.992"
-     inkscape:cy="569.22672"
+     inkscape:zoom="2.2880489"
+     inkscape:cx="1014.4699"
+     inkscape:cy="462.82466"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -182,7 +182,7 @@
        xlink:href="#linearGradient897"
        id="linearGradient888"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-14.258724,498.99361)"
+       gradientTransform="translate(-2.7089674,498.99361)"
        x1="1110.7661"
        y1="384.81622"
        x2="2800.2808"
@@ -293,7 +293,7 @@
        id="text910"
        transform="translate(-3.4964288,-6.9928575)">
       <path
-         d="m 1197.0747,1179.738 q -53.3334,0 -81.3334,-30 -28,-30.6667 -28,-87.3334 V 817.07128 q 0,-56.66667 28,-86.66667 28,-30.66667 81.3334,-30.66667 53.3333,0 81.3333,30.66667 28,30 28,86.66667 v 40 h -69.3333 v -44.66667 q 0,-46 -38,-46 -38,0 -38,46 V 1067.738 q 0,45.3333 38,45.3333 38,0 38,-45.3333 v -91.33338 h -36.6667 v -66.66667 h 106 v 152.66665 q 0,56.6667 -28,87.3334 -28,30 -81.3333,30 z"
+         d="m 1208.6244,1179.738 q -53.3334,0 -81.3334,-30 -28,-30.6667 -28,-87.3334 V 817.07128 q 0,-56.66667 28,-86.66667 28,-30.66667 81.3334,-30.66667 53.3333,0 81.3333,30.66667 28,30 28,86.66667 v 40 h -69.3333 v -44.66667 q 0,-46 -38,-46 -38,0 -38,46 V 1067.738 q 0,45.3333 38,45.3333 38,0 38,-45.3333 v -91.33338 h -36.6667 v -66.66667 h 106 v 152.66665 q 0,56.6667 -28,87.3334 -28,30 -81.3333,30 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:666.66668701px;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';letter-spacing:30px;fill:url(#linearGradient888);fill-opacity:1;fill-rule:nonzero"
          id="path848"
          inkscape:connector-curvature="0" />
