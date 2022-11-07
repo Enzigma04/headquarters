@@ -5,7 +5,7 @@ Running on [Github Pages](https://pages.github.com) and [Google Domains](https:/
 - [x] incorporate `<main>`
 - [ ] favicon.ico
 - [ ] Incorporate `<picture>` for mobile compatibility
-- [ ] Reformat for mobile compatibility `@media only screen and (min-width: 768px)`
+- [x] Reformat for mobile compatibility `@media only screen and (min-width: 768px)`
 - [x] Restyle header
 - [ ] Add footer
 - [ ] Add about.html
