@@ -3,10 +3,11 @@ Running on [Github Pages](https://pages.github.com) and [Google Domains](https:/
 ## To-Do List:
 - [x] Add `<meta name="" content="">` for description, keywords, author, and viewport.
 - [x] incorporate `<main>`
-- [ ] favicon.ico
+- [x] favicon.ico
 - [ ] Incorporate `<picture>` for mobile compatibility
 - [x] Reformat for mobile compatibility
 - [x] Restyle header
 - [ ] Add footer
 - [ ] Add about.html
+- [ ] Member bios
 - [ ] Create sitemap
