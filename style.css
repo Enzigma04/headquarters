@@ -55,7 +55,7 @@ header {
 #logo img {
 	height: 80%;
 	width: auto;
-	padding: 10px 0px;
+	padding: 10px 30px;
 	float: left;
 }
 /*#endregion*/
@@ -240,6 +240,10 @@ footer {
 /*#endregion*/
 
 @media screen and (max-width: 768px) {
+	#logo img {
+		height: 60%;
+		padding: 15px 10px;
+	}
 	.menu li a {
 		display: none;
 	}
