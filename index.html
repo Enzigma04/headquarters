@@ -21,12 +21,23 @@
 
                 <!-- Navigation Menu -->
                 <nav>
-                    <div id="menu">
+                    <div class="menu" id="topnav">
                         <ul>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Contact Us</a></li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                         </ul>
                     </div>
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("topnav");
+                            if (x.className === "menu") {
+                                x.className += " responsive";
+                            } else {
+                                x.className = "menu";
+                            }
+                        }
+                    </script>
                 </nav>
             </div>
         </header>

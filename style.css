@@ -11,6 +11,7 @@ html {
 body {
 	margin: auto;
 	background: #56558e;
+	height: 4000px;
 }
 
 a {
@@ -56,26 +57,15 @@ header {
 }
 
 /* nav menu */
-#menu {
+.menu {
 	float: right;
-	width: 60%;
-	height: 100%;
-	margin: 0;
 }
 
-#menu ul {
-	text-align: center;
-	float: right;
-	margin: 0;
-}
-
-#menu li {
+.menu li {
 	display: inline-block;
-	padding: 0;
-	margin: 0;
 }
 
-#menu li a, #menu li span {
+.menu li a {
 	width: 8em;
 	display: inline-block;
 	padding: 0em 1.5em;
@@ -84,14 +74,19 @@ header {
 	font-size: 16px;
 	text-transform: uppercase;
 	line-height: 90px;
-}
-
-#menu li a {
 	color: #FFF;
 }
 
-#menu li:hover a, #menu li span {
+.menu li:hover a {
 	text-decoration: underline;
+}
+
+.menu .icon {
+	display: none;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px;
 }
 
 /* body */
@@ -174,3 +169,12 @@ ol, ul {
 	color: #e52b2b;
 }
 
+@media screen and (max-width: 768px) {
+	.menu li a {
+		display: none;
+	}
+	.menu a.icon {
+		float: right;
+		display: block;
+	}
+}
