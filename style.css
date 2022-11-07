@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: auto;
-	background: #2321b6;
+	background: #0e0d44;
 	font-family: "Helvetica Neue Medium",HelveticaNeue-Medium,Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 
@@ -154,6 +154,7 @@ main {
 	transition: 0.3s ease;
 }
 
+/*#region*/ /* cover */
 #cover {
 	position: relative;
 	text-align: center;
@@ -199,6 +200,20 @@ main {
 	right: 8px;
 	color: #8a8a8a;
 	font-size: 10px;
+}
+/*#endregion*/
+
+.container {
+	padding: 140px 2rem 100px 2rem;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+article {
+	border-radius: 15px;
+	padding: 80px 40px;
+	background: rgb(7, 5, 26);
+	height: 800px;
 }
 
 h1, h2, h3 {
@@ -280,8 +295,11 @@ footer {
 		float: right;
 		display: block;
 	}
+	#cover {
+		height: calc(100vh - 100px);
+	}
 	#cover .gradient {
-		bottom: 100px;
+		bottom: 0px;
 	}
 	#cover .label {
 		margin-top: 120px;
@@ -291,9 +309,24 @@ footer {
 		padding: 6px;
 	}
 	footer {
-		position: absolute;
+		position: relative;
 		width: 100vw;
 		height: 100px;
 		bottom: 0px;
+	}
+}
+@media screen and (max-width: 1360px) {
+	.container {
+		max-width: 900px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.container {
+		max-width: 600px;
 	}
 }
