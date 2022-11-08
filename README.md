@@ -3,6 +3,7 @@ Running on [Github Pages](https://pages.github.com) and [Google Domains](https:/
 ## To-Do List:
 - [x] Reformat for mobile compatibility
 - [ ] Add merch tab
-- [ ] Add about.html
+- [ ] Finish about page
 - [ ] Member bios
 - [ ] Create sitemap
+- [ ] Add setlist page (confirmed, working, proposed)
