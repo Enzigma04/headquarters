@@ -208,6 +208,29 @@ article {
 	min-height: 570px;
 }
 
+.post {
+	border: #8a8a8a 1px solid;
+	margin: auto;
+	height: 300px;
+	border-radius: 12px;
+}
+
+.post img {
+	border-radius: 6px;
+	margin: 20px 40px 20px 20px;
+	float: left;
+	width: 260px;
+	height: 260px;
+}
+.post h2 {
+	text-align: left;
+	padding: 20px;
+}
+.post p {
+	text-align: left;
+	padding: 0 20px;
+}
+
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -276,6 +299,62 @@ footer {
   }  
 /*#endregion*/
 
+
+@media screen and (max-width: 1360px) {
+	.container {
+		max-width: 900px;
+	}
+	.post {
+		height: 280px;
+	}
+	.post img {
+		margin: 15px;
+		width: 250px;
+		height: 250px;
+	}
+	.post h2 {
+		padding: 15px;
+		font-size: 30px;
+	}
+	.post p {
+		padding: 0 15px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.container {
+		max-width: 600px;
+	}
+	.post {
+		position: relative;
+		height: 600px;
+	}
+	.post img {
+		margin: 15px 79px;
+		width: 360px;
+		height: 360px;
+	}
+	.post h2 {
+		text-align: center;
+	}
+	.post p {
+		text-align: center;
+	}
+	.post p:nth-last-of-type(2) {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.post p:last-of-type {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+}
 @media screen and (max-width: 768px) {
 	#logo img {
 		height: 60%;
@@ -301,25 +380,46 @@ footer {
 	#cover .arrow {
 		padding: 6px;
 	}
+	.container {
+		max-width: none;
+		width: 95vw;
+		padding: 100px 0 100px 0;
+		margin: 1vw;
+	}
+	article {
+		padding: 10px 4vw;
+	}
+	article h1 {
+		margin: 10px;
+		font-size: 30px;
+	}
+	.post {
+		position: relative;
+		height: auto;
+	}
+	.post img {
+		margin: 2vw;
+		width: 85.4vw;
+		height: 85.4vw;
+	}
+	.post h2 {
+		text-align: center;
+		font-size: 24px;
+	}
+	.post p {
+		line-height: 25px;
+		text-align: center;
+	}
+	.post p:nth-last-of-type(2) {
+		position: relative;
+	}
+	.post p:last-of-type {
+		position: relative;
+	}
 	footer {
 		position: relative;
 		width: 100vw;
 		height: 100px;
 		bottom: 0px;
-	}
-}
-@media screen and (max-width: 1360px) {
-	.container {
-		max-width: 900px;
-	}
-}
-@media screen and (max-width: 1080px) {
-	.container {
-		max-width: 720px;
-	}
-}
-@media screen and (max-width: 900px) {
-	.container {
-		max-width: 600px;
 	}
 }
