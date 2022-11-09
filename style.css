@@ -204,26 +204,27 @@ main {
 article {
 	border-radius: 15px;
 	padding: 80px 40px;
-	background: rgb(7, 5, 26);
-	height: 800px;
+	background: rgb(5, 4, 19);
+	min-height: 570px;
 }
 
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
-	color: #411cff;
+	color: #00a9ff;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 45px;
+	margin-bottom: 15px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 35px;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 p, ol, ul {
