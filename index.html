@@ -25,9 +25,8 @@
         <aside class="sidebar" id="sidebar">
             <nav>
                 <ul>
-                    <li><a href="https://www.absentground.com/shows">Shows</a></li>
-                    <li><a href="https://www.absentground.com/about">About</a></li>
-                    <li><a href="https://www.absentground.com/contact">Contact Us</a></li>
+                    <li><a href="https://www.absentground.com/members">Members</a></li>
+                    <li><a href="https://www.absentground.com/setlist">Setlist</a></li>
                 </ul>
             </nav>
         </aside>
@@ -50,17 +49,10 @@
                         <a href="https://www.absentground.com"><img src="images/logo_text.svg" /></a>
                     </div>
 
-                    <!-- Navigation Menu -->
-                    <nav>
-                        <div class="menu" id="topnav">
-                            <ul>
-                                <li><a href="https://www.absentground.com/contact">Contact Us</a></li>
-                                <li><a href="https://www.absentground.com/about">About</a></li>
-                                <li><a href="https://www.absentground.com/shows">Shows</a></li>
-                                <a href="javascript:void(0);" class="icon" onclick="open_sidebar()">&#9776;</a>
-                            </ul>
-                        </div>
-                    </nav>
+                    <!-- Open Sidebar -->
+                    <div class="opennav">
+                        <a href="javascript:void(0);" onclick="open_sidebar()">&#9776;</a>
+                    </div>
                 </div>
             </header>
             <section>
@@ -69,17 +61,23 @@
                         <source media="(max-width:768px)" srcset="images/sample-band-mobile.jpg">
                         <img id="cover-photo" src="images/sample-band.jpg" />
                     </picture>
-                    <div class="gradient">
-                        <div class="label">Socials</div><br />
-                        <i class="arrow down"></i>
-                    </div>
+                </div>
+            </section>
+            <section id="gigs">
+                <h1 class="block__title">Shows</h1>
+                <div class="post">
+                    <img alt="Lunchbox Voodoo Open Mic Night" src="images/show-lbv-open-mic.jpg">
+                    <h2>Lunchbox Voodoo Open Mic Night</h2>
+                    <p>3-song set in 7th Street Underground at EIU</p>
+                    <p>Date: Saturday, November 12</p>
+                    <p>Time: 7:00-9:00 p.m.</p>
                 </div>
             </section>
             <footer>
                 <div class="socials">
                     <ul>
                         <li><a href="#" class="fa fa-facebook"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="https://twitter.com/AbsentGround/" class="fa fa-twitter"></a></li>
                         <li><a href="https://www.instagram.com/absent_ground/" class="fa fa-instagram"></a></li>
                         <li><a href="#" class="fa fa-youtube"></a></li>
                         <li><a href="#" class="fa fa-snapchat-ghost"></a></li>
