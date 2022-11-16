@@ -5,6 +5,23 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background: #02000c;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 30px;
+}
+li {
+    list-style: none;
 }
 
 .socials {
@@ -92,19 +109,22 @@ body {
 /* HEADER */
 /* #region */
 header {
+    z-index: 40;
     width: 100%;
     height: 100px;
     position: sticky;
     display: flex;
     flex-wrap: nowrap;
     top: 0;
+    background: #02000c;
+    border-bottom: #888 1px solid;
 }
 header div:first-of-type {
     flex: 1 1 0;
 }
 header img {
-    height: 80px;
-    padding: 10px 40px;
+    height: 70px;
+    padding: 15px 40px;
 }
 header .socials {
     -webkit-box-flex: 3;
@@ -149,9 +169,8 @@ header .opennav a {
     transform: translate(-50%, -50%);
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
-    /* color: transparent;
-    animation: flicker 3s linear infinite; */
-    color: white; /* TEMPORARYYYYYYYYYYYYYYYY */
+    color: transparent;
+    animation: flicker 3s linear infinite;
     
 }
 @keyframes flicker {
@@ -172,11 +191,49 @@ header .opennav a {
 }
 /* #endregion */
 
+/* SECTIONS */
+/* #region */
+section {
+    background: rgb(31, 29, 39);
+    height: 500px;
+    margin-top: 25px;
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 3rem;
+}
+section img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    grid-column: span 4/span 4;
+    margin: auto;
+}
+section .text-wrapper {
+    grid-column: span 8/span 8;
+    margin-top: 50px;
+}
+section:nth-of-type(even) .text-wrapper {
+    grid-row-start: 1;
+}
+section h2, h4 {
+    padding: 5px 20px;
+    margin: 0;
+    border-bottom: #888 2px solid;
+}
+section h4 {
+    margin-top: 1rem;
+    height: 66.7%;
+}
+/* #endregion */
+
 /* FOOTER */
 /* #region */
 footer {
     width: 100%;
+    height: 150px;
     bottom: 0;
+    border-top: #888 1px solid;
 }
 /* #endregion */
 
