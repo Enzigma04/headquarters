@@ -3,4 +3,3 @@ Running on [Github Pages](https://pages.github.com) and [Google Domains](https:/
 ## To-Do List:
 - [ ] Scale sections down with vw
 - [ ] Complete footer
-- [ ] 
