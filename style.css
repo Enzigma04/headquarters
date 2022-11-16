@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100vw;
+    overflow-x: hidden;
+    background: #02000c;
+}
+
+.sidebar {
+    position: absolute;
+    right: -300px;
+}
+
+header {
+    height: 100px;
+}
+header div {
+}
+header img {
+    height: 80px;
+    padding: 10px;
+}
+
+.cover {
+    position: relative;
+}
+.cover img {
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    object-position: 0% 55%;
+    filter: brightness(30%);
+}
+.cover h1 {
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    animation: flicker 3s linear infinite;
+    
+}
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 4px #fff,
+        0 0 21px #0af,
+        0 0 42px #0af,
+        0 0 82px #0af,
+        0 0 92px #0af,
+        0 0 102px #0af;
+      }
+      20%, 24%, 55% {       
+        text-shadow: none;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .cover img {
+        object-position: 0% 20%;
+    }
+    .cover h1 {
+        font-size: 40px;
+    }
+}
