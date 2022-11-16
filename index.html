@@ -28,15 +28,13 @@
     <body>
         <aside class="sidebar" id="sidebar">
             <nav>
-                <ul>
-                    <li><a href="https://www.absentground.com/members">Members</a></li>
-                    <li><a href="https://www.absentground.com/setlist">Setlist</a></li>
-                    <li><a href="https://www.absentground.com/photos">Photos</a></li>
-                    <li><a href="https://www.absentground.com/booking">Booking</a></li>
-                </ul>
+                <li><a href="https://www.absentground.com/members">Members</a></li>
+                <li><a href="https://www.absentground.com/setlist">Setlist</a></li>
+                <li><a href="https://www.absentground.com/photos">Photos</a></li>
+                <li><a href="https://www.absentground.com/booking">Booking</a></li>
             </nav>
         </aside>
-        <button class="close-off-canvas" style="display: none;" onclick="close_sidebar()"><span style="font-size:40px;padding:32px 282px;color:#FFF;position:absolute;top:0;right:0;">&#10539;</span></button>
+        <button class="close-off-canvas" style="display: none;" onclick="close_sidebar()"><span>&#10539;</span></button>
         <script>
             function open_sidebar() {
                 document.getElementById("sidebar").style.left = 'calc(100vw - 300px)';
@@ -50,8 +48,13 @@
         <main>
             <header>
                 <!-- Logo -->
-                <div id="logo">
+                <div>
                     <a href="https://www.absentground.com"><img src="images/logo_text.svg" /></a>
+                </div>
+
+                <div class="socials">
+                    <li><a href="https://twitter.com/AbsentGround/" class="fa fa-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/absent_ground/" class="fa fa-instagram"></a></li>
                 </div>
 
                 <!-- Open Sidebar -->
@@ -75,13 +78,11 @@
             </section>
             <footer>
                 <div class="socials">
-                    <ul>
-                        <li><a href="#" class="fa fa-facebook"></a></li>
-                        <li><a href="https://twitter.com/AbsentGround/" class="fa fa-twitter"></a></li>
-                        <li><a href="https://www.instagram.com/absent_ground/" class="fa fa-instagram"></a></li>
-                        <li><a href="#" class="fa fa-youtube"></a></li>
-                        <li><a href="#" class="fa fa-snapchat-ghost"></a></li>
-                    </ul>
+                    <li><a href="https://twitter.com/AbsentGround/" class="fa fa-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/absent_ground/" class="fa fa-instagram"></a></li>
+                    <!-- <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-youtube"></a></li>
+                    <li><a href="#" class="fa fa-snapchat-ghost"></a></li> -->
                 </div>
             </footer>
         </main>
