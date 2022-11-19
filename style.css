@@ -91,7 +91,7 @@ li {
 	width: 100vw;
 	height: 100%;
 	background: #000000AA;
-	display: none;
+	display: block;
 	appearance: none;
 	border: 0;
 	z-index: 50;
@@ -122,6 +122,9 @@ header {
 header div:first-of-type {
     flex: 1 1 0;
 }
+header .logo-wrapper {
+    max-width: 234px;
+}
 header img {
     height: 70px;
     padding: 15px 40px;
@@ -134,10 +137,12 @@ header .socials .fa {
     font-size: 25px;
 }
 header .opennav {
+    max-width: 154px;
+    min-width: 154px;
     flex-flow: row nowrap;
     flex: 1 1 0px;
     text-align: right;
-    padding: 0 40px;
+    padding: 0 60px 0 20px;
 }
 header .opennav a {
     line-height: 100px;
@@ -231,14 +236,21 @@ section h4 {
 /* FOOTER */
 /* #region */
 footer {
+    position: relative;
     width: 100%;
     height: 150px;
     bottom: 0;
     border-top: #888 1px solid;
 }
+footer .socials .fa {
+    font-size: 25px;
+}
 /* #endregion */
 
 @media screen and (max-width: 768px) {
+    header .logo-wrapper {
+        max-width: none;
+    }
     header .socials {
         display: none;
     }
