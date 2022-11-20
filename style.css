@@ -198,36 +198,60 @@ header .opennav a {
 
 /* SECTIONS */
 /* #region */
-section {
+.post-wrapper {
     background: rgb(31, 29, 39);
-    height: 500px;
+    height: 28vw;
     margin-top: 25px;
     padding: 20px 100px;
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     column-gap: 3rem;
 }
-section img {
-    width: 400px;
-    height: 400px;
+.post-wrapper img {
+    width: 22vw;
+    height: 22vw;
     object-fit: cover;
     grid-column: span 4/span 4;
     margin: auto;
     box-shadow: 10px 10px #000;
 }
-section .text-wrapper {
+.post-wrapper .text-wrapper {
     grid-column: span 8/span 8;
-    margin-top: 50px;
+    margin-top: 2.6vw;
+    position: relative;
 }
-section:nth-of-type(even) .text-wrapper {
+.post-wrapper:nth-of-type(even) .text-wrapper {
     grid-row-start: 1;
 }
-section h2, h4 {
-    padding: 5px 20px;
+.post-wrapper .cta-button {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    width: 12vw;
+    height: 4vw;
+    background: rgb(0, 146, 219);
+    border-radius: 6px;
+    border: #01f;
+
+    font-size: 1.6vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 4vw;
+    color: #FFF;
+}
+.post-wrapper h2, h4 {
+    padding: 0.3vw 1vw;
     margin: 0;
     border-bottom: #888 2px solid;
 }
-section h4 {
+.post-wrapper h2 {
+    font-size: 3vw;
+}
+.post-wrapper h4 {
+    font-weight: 300;
+    font-size: 1.8vw;
     margin-top: 1rem;
     height: 66.7%;
 }
