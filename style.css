@@ -159,7 +159,7 @@ header .opennav a {
 }
 .cover img {
     width: 100vw;
-    height: 700px;
+    height: 35vw;
     object-fit: cover;
     object-position: 0% 55%;
     filter: brightness(30%);
