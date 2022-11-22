@@ -225,13 +225,14 @@ header .opennav a {
 }
 .post-wrapper .cta-button {
     position: absolute;
-    top: 60%;
-    left: 65%;
-    width: 12vw;
+    top: 63%;
+    left: 60%;
+    width: 15vw;
     height: 4vw;
     background: rgb(0, 146, 219);
     border-radius: 6px;
     border: #01f;
+    border: 3px solid rgb(0, 146, 219);
 
     font-size: 1.6vw;
     font-weight: 600;
@@ -241,17 +242,22 @@ header .opennav a {
     line-height: 4vw;
     color: #FFF;
 }
+.post-wrapper .cta-button:hover {
+    color: rgb(0, 128, 192);
+    background: #FFF;
+    border: 3px solid rgb(0, 128, 192);
+}
 .post-wrapper h2, h4 {
     padding: 0.3vw 1vw;
     margin: 0;
     border-bottom: #888 2px solid;
 }
 .post-wrapper h2 {
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 .post-wrapper h4 {
     font-weight: 300;
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     margin-top: 1rem;
     height: 66.7%;
 }
