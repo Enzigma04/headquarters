@@ -216,7 +216,7 @@ header .opennav a {
     box-shadow: 10px 10px #000;
 }
 .post-wrapper .text-wrapper {
-    grid-column: span 8/span 8;
+    grid-column: span 8;
     margin-top: 2.6vw;
     position: relative;
 }
@@ -279,9 +279,47 @@ footer .socials .fa {
         display: none;
     }
     .cover img {
+        height: 50vw;
         object-position: 0% 20%;
     }
     .cover h1 {
-        font-size: 40px;
+        font-size: 8vw;
+    }
+    .post-wrapper {
+        padding: 0 60px 20px 60px;
+        height: 100vw;
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+    }
+    .post-wrapper img {
+        margin-top: 0;
+        width: 50vw;
+        height: 50vw;
+        grid-row: 2;
+        grid-column: 1 / span 8;
+    }
+    .post-wrapper .text-wrapper {
+        height: 44vw;
+        grid-row: 1;
+        grid-column: 1 / span 8;
+    }
+    .post-wrapper h2 {
+        font-size: 7vw;
+        text-align: center;
+    }
+    .post-wrapper h4 {
+        font-size: 3.5vw;
+    }
+    .post-wrapper .cta-button {
+        position: absolute;
+        top: auto;
+        bottom: 40px;
+        left: 0;
+        width: 90%;
+        height: 8vw;
+        border-radius: 10px;
+        margin: 0 5%;
+    
+        font-size: 3.5vw;
+        line-height: 8vw;
     }
 }
