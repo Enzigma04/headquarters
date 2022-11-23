@@ -350,7 +350,7 @@ footer .socials .fa {
     .post-wrapper .cta-button {
         position: absolute;
         top: auto;
-        bottom: 30px;
+        bottom: 5vw;
         left: 0;
         width: 90%;
         height: 8vw;
