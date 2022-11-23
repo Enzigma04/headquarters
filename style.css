@@ -218,6 +218,7 @@ header .opennav a {
 .post-wrapper .text-wrapper {
     grid-column: span 8;
     margin-top: 2.6vw;
+    text-align: left;
     position: relative;
 }
 .post-wrapper:nth-of-type(even) .text-wrapper {
@@ -230,7 +231,7 @@ header .opennav a {
     width: 15vw;
     height: 4vw;
     background: rgb(0, 146, 219);
-    border-radius: 6px;
+    border-radius: 12px;
     border: #01f;
     border: 3px solid rgb(0, 146, 219);
 
@@ -251,6 +252,7 @@ header .opennav a {
     padding: 0.3vw 1vw;
     margin: 0;
     border-bottom: #888 2px solid;
+    text-align: inherit;
 }
 .post-wrapper h2 {
     font-size: 3vw;
@@ -260,6 +262,14 @@ header .opennav a {
     font-size: 1.75vw;
     margin-top: 1rem;
     height: 66.7%;
+    line-height: 2.25vw;
+}
+.post-wrapper.no-img .text-wrapper {
+    grid-column: span 12;
+    text-align: center;
+}
+.post-wrapper.no-img h4 {
+    padding: 0 10vw;
 }
 /* #endregion */
 
@@ -271,6 +281,12 @@ footer {
     height: 150px;
     bottom: 0;
     border-top: #888 1px solid;
+}
+footer .socials {
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    bottom: 10px;
 }
 footer .socials .fa {
     font-size: 25px;
@@ -292,7 +308,7 @@ footer .socials .fa {
         font-size: 8vw;
     }
     .post-wrapper {
-        padding: 0 60px 20px 60px;
+        padding: 0 7vw 20px 7vw;
         height: 100vw;
         grid-template-columns: repeat(8, minmax(0, 1fr));
     }
@@ -307,14 +323,17 @@ footer .socials .fa {
         height: 44vw;
         grid-row: 1;
         grid-column: 1 / span 8;
-    }
-    .post-wrapper h2 {
-        font-size: 7vw;
         text-align: center;
     }
     .post-wrapper h4 {
+        line-height: 5vw;
+        text-align: inherit;
+    }
+    .post-wrapper h2 {
+        font-size: 7vw;
+    }
+    .post-wrapper h4 {
         font-size: 3.5vw;
-        text-align: center;
     }
     .post-wrapper .cta-button {
         position: absolute;
@@ -328,5 +347,15 @@ footer .socials .fa {
     
         font-size: 3.5vw;
         line-height: 8vw;
+    }
+    .post-wrapper.no-img {
+        height: 56vw;
+    }
+    .post-wrapper.no-img .text-wrapper {
+        height: 56vw;
+        width: 85vw;
+    }
+    .post-wrapper.no-img h4 {
+        padding: 0;
     }
 }
