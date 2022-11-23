@@ -253,11 +253,11 @@ header .opennav a {
     border-bottom: #888 2px solid;
 }
 .post-wrapper h2 {
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 .post-wrapper h4 {
     font-weight: 300;
-    font-size: 1.3vw;
+    font-size: 1.75vw;
     margin-top: 1rem;
     height: 66.7%;
 }
@@ -277,7 +277,7 @@ footer .socials .fa {
 }
 /* #endregion */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     header .logo-wrapper {
         max-width: none;
     }
@@ -314,6 +314,7 @@ footer .socials .fa {
     }
     .post-wrapper h4 {
         font-size: 3.5vw;
+        text-align: center;
     }
     .post-wrapper .cta-button {
         position: absolute;
