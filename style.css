@@ -337,6 +337,7 @@ footer .socials .fa {
         text-align: center;
     }
     .post-wrapper h4 {
+        height: 30vw;
         line-height: 5vw;
         text-align: inherit;
     }
@@ -349,7 +350,7 @@ footer .socials .fa {
     .post-wrapper .cta-button {
         position: absolute;
         top: auto;
-        bottom: 40px;
+        bottom: 30px;
         left: 0;
         width: 90%;
         height: 8vw;
