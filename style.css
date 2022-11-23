@@ -84,6 +84,17 @@ li {
 .sidebar li a:hover {
 	color: #8a8a8a;
 }
+.sidebar .coming-soon a {
+    color: red;
+}
+.sidebar .coming-soon:hover a {
+    text-indent: -100px;
+    color: transparent;
+}
+.sidebar .coming-soon:hover a:after {
+    color: red;
+    content: "Coming Soon!";
+}
 .close-off-canvas {
 	position: fixed;
 	top: 0;
