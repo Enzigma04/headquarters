@@ -191,10 +191,10 @@ header .opennav a {
     width: 100%;
     transform: translate(-50%, -50%);
     font-size: 70px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     color: #FFF;
     animation: flicker 3s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 1s;
     font-display: swap;
 }
 @keyframes flicker {
