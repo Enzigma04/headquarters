@@ -69,6 +69,7 @@ li {
 	transition: 0.3s ease;
 }
 .sidebar li {
+    display: block;
 	height: 40px;
 }
 .sidebar li a {
