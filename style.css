@@ -195,6 +195,7 @@ header .opennav a {
     color: #FFF;
     animation: flicker 3s linear infinite;
     animation-delay: 2s;
+    font-display: swap;
 }
 @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
