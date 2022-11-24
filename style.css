@@ -308,6 +308,9 @@ footer .socials .fa {
     header .logo-wrapper {
         max-width: none;
     }
+    header .logo-wrapper img {
+        width: auto;
+    }
     header .socials {
         display: none;
     }
