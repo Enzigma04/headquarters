@@ -279,6 +279,14 @@ header .opennav a {
 .post-wrapper.no-img h4 {
     padding: 0 10vw;
 }
+.post-wrapper.spotify {
+    height: 420px;
+}
+.post-wrapper.spotify iframe {
+    grid-column: span 12;
+    width: 60vw;
+    margin: auto;
+}
 /* #endregion */
 
 /* FOOTER */
@@ -369,6 +377,9 @@ footer .socials .fa {
         padding: 0;
         height: 40vw;
     }
+    .post-wrapper.spotify iframe {
+        width: 70vw;
+    }
 }
 @media screen and (max-width: 800px) {
     .sidebar {
@@ -400,7 +411,9 @@ footer .socials .fa {
         line-height: 12.5vw;
         font-size: 5vw;
     }
-
+    .post-wrapper.spotify iframe {
+        width: 80vw;
+    }
 }
 @media screen and (max-width: 600px) {
     .post-wrapper {
@@ -408,5 +421,11 @@ footer .socials .fa {
     }
     .post-wrapper .text-wrapper {
         width: 94vw;
+    }
+    .post-wrapper.spotify {
+        padding: 0;
+    }
+    .post-wrapper.spotify iframe {
+        width: 85vw;
     }
 }
