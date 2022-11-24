@@ -348,7 +348,7 @@ footer .socials .fa {
     .post-wrapper .cta-button {
         position: absolute;
         top: auto;
-        bottom: 4.8vw;
+        bottom: 4vw;
         left: 0;
         width: 90%;
         height: 8vw;
@@ -401,4 +401,12 @@ footer .socials .fa {
         font-size: 5vw;
     }
 
+}
+@media screen and (max-width: 600px) {
+    .post-wrapper {
+        padding: 0 3vw 20px 3vw;
+    }
+    .post-wrapper .text-wrapper {
+        width: 94vw;
+    }
 }
