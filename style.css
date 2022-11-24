@@ -423,9 +423,14 @@ footer .socials .fa {
         width: 94vw;
     }
     .post-wrapper.spotify {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         padding: 0;
     }
     .post-wrapper.spotify iframe {
         width: 85vw;
+        grid-column: span 4;
+    }
+    footer .socials {
+        width: 80vw;
     }
 }
