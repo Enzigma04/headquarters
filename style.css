@@ -372,7 +372,21 @@ footer .socials .fa {
     }
 }
 @media screen and (max-width: 800px) {
-    
+    .sidebar {
+        width: 37.5vw;
+    }
+    .sidebar li {
+        height: 8vw;
+    }
+    .sidebar li a {
+        line-height: 8vw;
+        font-size: 5vw;
+        margin: 0;
+        font-weight: 500;
+    }
+    .close-off-canvas span {
+        padding: 32px calc(32px + 37.5vw);
+    }
     header {
         height: 12.5vw;
     }

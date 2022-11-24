@@ -37,7 +37,7 @@
         <button class="close-off-canvas" style="display: none" onclick="close_sidebar()"><span>&#10539;</span></button>
         <script>
             function open_sidebar() {
-                document.getElementById("sidebar").style.left = 'calc(100vw - 300px)';
+                document.getElementById("sidebar").style.left = 'calc(100vw - min(300px, 37.5vw))';
                 document.getElementsByClassName("close-off-canvas")[0].style.display = "block";
             }
             function close_sidebar() {
