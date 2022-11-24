@@ -336,21 +336,19 @@ footer .socials .fa {
         grid-column: 1 / span 8;
         text-align: center;
     }
-    .post-wrapper h4 {
-        height: 40vw;
-        line-height: 5vw;
-        text-align: inherit;
-    }
     .post-wrapper h2 {
         font-size: 7vw;
     }
     .post-wrapper h4 {
         font-size: 3.5vw;
+        height: 28vw;
+        line-height: 5vw;
+        text-align: inherit;
     }
     .post-wrapper .cta-button {
         position: absolute;
         top: auto;
-        bottom: 5vw;
+        bottom: 4.8vw;
         left: 0;
         width: 90%;
         height: 8vw;
@@ -369,6 +367,7 @@ footer .socials .fa {
     }
     .post-wrapper.no-img h4 {
         padding: 0;
+        height: 40vw;
     }
 }
 @media screen and (max-width: 800px) {
