@@ -189,12 +189,13 @@ header .opennav a {
     transform: translate(-50%, -50%);
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
-    color: transparent;
+    color: #FFF;
     animation: flicker 3s linear infinite;
     animation-delay: 2s;
 }
 @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        color: transparent;
         text-shadow:
         0 0 2px #fff,
         0 0 3px #fff,
@@ -205,7 +206,8 @@ header .opennav a {
         0 0 92px #0af,
         0 0 102px #0af;
       }
-      20%, 24%, 55% {       
+      20%, 24%, 55% {
+        color: transparent;
         text-shadow: none;
       }
 }
