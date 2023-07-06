@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Absent Ground | Setlist</title>
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico" />
+
+        <meta charset="UTF-8" />
+        <meta name="description" content="Live rock music group based in Charleston, IL." />
+        <meta name="keywords" content="Music, Band, Gig, Guitar, Rock" />
+        <meta name="author" content="Daniel Zigler" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:image" content="https://raw.githubusercontent.com/Enzigma04/headquarters/master/images/logo_circle.png" />
+        <meta property="og:image:secureurl" content="https://raw.githubusercontent.com/Enzigma04/headquarters/master/images/logo_circle.png" />
+        <meta property="og:image:width" content="1350" />
+        <meta property="og:image:height" content="1350" />
+        <meta property="og:image:alt" content="Absent Ground Logo" />
+        <meta property="og:image:type" content="image/png" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+        </style>
+    </head>
+    <body>
+        <aside class="sidebar" id="sidebar">
+            <nav>
+                <ul>
+                    <li class="coming-soon"><a href="">Members</a></li>
+                    <li class="coming-soon"><a href="">Photos</a></li>
+                    <li><a href="">Setlist</a></li>
+                    <li><a href="https://www.absentground.com/booking">Booking</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <button class="close-off-canvas" style="display: none" onclick="close_sidebar()"><span>&#10539;</span></button>
+        <script>
+            function open_sidebar() {
+                document.getElementById("sidebar").style.left = 'calc(100vw - min(300px, 37.5vw))';
+                document.getElementsByClassName("close-off-canvas")[0].style.display = "block";
+            }
+            function close_sidebar() {
+                document.getElementsByClassName("close-off-canvas")[0].style.display = "none";
+                document.getElementById("sidebar").style.left = '100vw';
+            }
+        </script>
+        <main>
+            <header>
+                <!-- Logo -->
+                <div class="logo-wrapper">
+                    <a href="https://www.absentground.com"><img alt="Absent Ground Logo" src="images/logo_text.svg" height="70px" width="155px" /></a>
+                </div>
+
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://twitter.com/AbsentGround/" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/absent_ground/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCPaPD-fqtkXAnnn2gvlee3w" class="fa fa-youtube"></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100094257376325" class="fa fa-facebook"></a></li>
+                    </ul>
+                </div>
+
+                <!-- Open Sidebar -->
+                <div class="opennav">
+                    <a href="javascript:void(0);" onclick="open_sidebar()">&#9776;</a>
+                </div>
+            </header>
+            <div class="cover">
+                <picture>
+                    <source media="(max-width:768px)" srcset="images/mobile_cover.jpg">
+                    <img alt="Cover Image" src="images/desktop_cover.jpg" />
+                </picture>
+                <h1>Photo Gallery</h1>
+            </div>
+            <section id="" class=""></section> <!-- make some columns for photos -->
+            <footer>
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://twitter.com/AbsentGround/" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/absent_ground/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCPaPD-fqtkXAnnn2gvlee3w" class="fa fa-youtube"></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100094257376325" class="fa fa-facebook"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
